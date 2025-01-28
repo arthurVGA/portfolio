@@ -1,0 +1,54 @@
+body {
+    background-color: #000000;
+    height: 100vh;
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+}
+.conteudo {
+    max-width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo {
+    font-family: 'KronaOne', sans-serif;
+    font-size: 36px;
+    color: #F6F6F6;
+}
+
+.titulo .enfase-titulo {
+    color: #22D4FD;
+}
+
+.texto {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 24px;
+    color: #F6F6F6;
+}
+
+.link-rede-social {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.img-portfolio {
+    width: 488px;
+    height: 550px;
+    border-radius: 16px;
+}
